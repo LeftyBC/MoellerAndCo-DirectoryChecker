@@ -144,27 +144,7 @@ namespace WindowsFormsApplication1
             about.ShowDialog();
         }
 
-        private void lbMatchingFolders_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void lbMatchingFolders_DoubleClick(object sender, MouseEventArgs e)
-        {
-            /*
-            int index = this.lvInvalidItems.Ind.IndexFromPoint(e.Location);
-            if (index != System.Windows.Forms.ListBox.NoMatches)
-            {
-                String entry = (String)this.lvInvalidItems.SelectedItem;
-                Process.Start(entry);
-            }
-            */
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
 
         private void lvInvalidItems_SelectedIndexChanged(object sender, EventArgs e)
         {
